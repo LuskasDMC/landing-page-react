@@ -1,0 +1,50 @@
+$radius: 500px;
+$font-default:.76rem;
+
+$button-withe-color: #FFFFFF;
+$button-withe-default-width: 100%;
+$button-withe-default-height: 40px;
+
+$button-purple-color:linear-gradient(90deg, rgba(141,77,254,1) 0%, rgba(157,107,232,1) 90%);
+$button-withe-default-height: 40px;
+$button-purple-small-width: 162px;
+$button-purple-medium-width: 222px;
+$button-purple-large-width: 276px;
+$button-purple-size: button-purple-default-width, button-purple-medium-width, button-purple-large-width;
+
+@mixin button($background,$color,) {
+    background: $background;
+    border: {
+        radius: $radius;
+        style: none;
+    }
+    color: $color;
+    font: Bold $font-default Roboto,sans-serif;
+} 
+
+.button-purple-default {
+    @include button($button-purple-color,#FFFFFF);
+    height: $button-withe-default-height;
+}
+
+.button-purple-small-width {
+    width: $button-purple-small-width; 
+}
+  
+.button-purple-medium-width {
+    width: $button-purple-medium-width; 
+}
+  
+.button-purple-large-width {
+    width: $button-purple-large-width; 
+}
+
+.button-withe-default {
+    @include button($button-withe-color,#9D6BE8);
+    border:1px solid #9D6BE8;
+    width: $button-withe-default-width;
+    height: $button-withe-default-height;
+    &:hover {
+        @include button(#9D6BE8,$button-withe-color);
+    }
+}

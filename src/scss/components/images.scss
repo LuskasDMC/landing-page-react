@@ -1,0 +1,26 @@
+#background-image {
+    z-index: 3;
+}
+
+#sub-block1 {
+    z-index: 4;
+    position: absolute;
+   #sub-block-text {
+       margin-top: 20%;
+   }
+}
+
+#mountain-image {
+    z-index: 2;
+    position: absolute;
+}
+
+#purpleWave-image {
+    position: relative;
+    top: -11vw;
+    width: 100%;
+}
+
+#footer-image {
+    width: 100%;
+}

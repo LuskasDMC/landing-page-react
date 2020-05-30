@@ -1,0 +1,22 @@
+[
+    {
+        "porcent":"30%",
+        "text":"Acima de 701",
+        "color":"#2B9FE6"
+    },
+    {
+        "porcent":"25%",
+        "text":"601 á 701",
+        "color":"#FF769A"
+    },
+    {
+        "porcent":"20%",
+        "text":"501 á 600",
+        "color":"#8874DA"
+    },
+    {
+        "porcent":"10%",
+        "text":"400 a 500",
+        "color":"#FF9C2B"
+    }
+]

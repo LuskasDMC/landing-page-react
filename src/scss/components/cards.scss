@@ -1,0 +1,35 @@
+#card {
+    position: relative;
+    height: 150px;
+    background-color: #ffff;
+    border-radius: 5px;
+    p:nth-child(1){
+        color: #9D6BE8;
+        font-size: 1.4rem;
+    }
+    p:nth-child(2n){
+        color: #2F1A5A;
+        font-size: 1rem;
+    }
+    #footer {
+        height: 10px;
+        width: 100%;
+        position: absolute;
+        bottom: 15px;
+    }
+}
+
+#card-large {
+    height: auto;
+    h3 {
+        color: #9D6BE8;
+    }
+    h5 {
+        color: #2F1A5A;
+    }
+    p {
+        color: #2F1A5A;
+        font-size: .8rem;
+    }
+}
+

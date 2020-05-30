@@ -1,0 +1,38 @@
+@import 'components/footer';
+@import 'components/buttons';
+@import 'components/cards';
+@import 'components/text';
+@import 'components/images';
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+	font-size: 16px;
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+#block-1{
+    width: 100%;
+    overflow: hidden;
+}
+
+#block-2{
+    padding: 15vw 0px 10vw 0px;
+    overflow: hidden;
+    position: relative;
+    top: -10vw;
+    box-sizing: border-box;
+    background: {
+        color: #2F1A5A;
+    }
+    p{
+        font-size: .7rem;
+    }
+}
