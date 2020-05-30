@@ -4,7 +4,17 @@
   border-style: none;
   color: #FFFFFF;
   font: Bold 0.76rem Roboto, sans-serif;
+  outline: 0 !important;
   height: 40px;
+}
+
+.button-purple-default:hover {
+  background: linear-gradient(90deg, #7c42d1 0%, #8d4dfe 90%);
+  border-radius: 500px;
+  border-style: none;
+  color: #FFFF;
+  font: Bold 0.76rem Roboto, sans-serif;
+  outline: 0 !important;
 }
 
 .button-purple-small-width {
@@ -25,6 +35,7 @@
   border-style: none;
   color: #9D6BE8;
   font: Bold 0.76rem Roboto, sans-serif;
+  outline: 0 !important;
   border: 1px solid #9D6BE8;
   width: 100%;
   height: 40px;
@@ -36,6 +47,7 @@
   border-style: none;
   color: #FFFFFF;
   font: Bold 0.76rem Roboto, sans-serif;
+  outline: 0 !important;
 }
 
 #card {
