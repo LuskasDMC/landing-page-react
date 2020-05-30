@@ -5,7 +5,7 @@ import PurpleButton from '../Buttons/PurpleButton'
 
 export default (props) => (
     <>
-        <div id="block-3" className="row justify-content-center ml-0 mr-0">
+        <div id="block-3" className="row justify-content-center ml-0 mr-0 pt-2">
             <div className="col-12 col-sm-12 col-md-8 col-lg-7">
                 <div className="row justify-content-between ml-0 mr-0 pb-5">
                     <div className="col-12 col-sm-6 col-sm-6 col-lg-6 ">

@@ -51,6 +51,7 @@
 }
 
 #card {
+  border-radius: 500px;
   position: relative;
   height: 140px;
   background-color: #ffff;
@@ -67,11 +68,17 @@
 }
 
 #card #footer {
+  border-radius: 0px 0px 4px 4px;
   bottom: 0px;
   height: 10px;
   left: 0px;
   width: 100%;
   position: absolute;
+}
+
+#card-large {
+  border-radius: 5px;
+  box-shadow: 0px 0px 12px -7px #736d73;
 }
 
 #card-large h3 {
