@@ -7,7 +7,7 @@ export default (props) => (
     <>
         <div id='block-2' className="row justify-content-center align-items-center mr-0">
             <div className='col-12'>
-                <h4 class="text-center text-white">Bolsas e pontuações</h4>
+                <h3 class="text-center text-white font-weight-bold">Bolsas e pontuações</h3>
                 <p class="text-center text-white">Todas as bolsas serão concedidas durente todo o curso.</p>
             </div>
             <div className="col-7">

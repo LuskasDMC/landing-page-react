@@ -40,7 +40,7 @@
 
 #card {
   position: relative;
-  height: 150px;
+  height: 140px;
   background-color: #ffff;
   border-radius: 5px;
 }
@@ -87,6 +87,7 @@ p, h6, h3, h5, h2 {
 
 #section-1 p {
   font-size: .8rem;
+  color: #AAACBF;
 }
 
 #background-image {
@@ -109,8 +110,14 @@ p, h6, h3, h5, h2 {
 
 #purpleWave-image {
   position: relative;
-  top: -11.8vw;
+  top: -11vw;
   width: 100%;
+}
+
+@media screen and (max-width: 450px) {
+  #purpleWave-image {
+    top: -12.5vw;
+  }
 }
 
 #footer-image {
@@ -136,7 +143,7 @@ body {
 }
 
 #block-2 {
-  padding: 15vw 0px 10vw 0px;
+  padding: 15vw 0px 8vw 0px;
   overflow: hidden;
   position: relative;
   top: -10vw;

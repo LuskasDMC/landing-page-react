@@ -17,10 +17,13 @@
 
 #purpleWave-image {
     position: relative;
-    top: -11.8vw;
+    top: -11vw;
     width: 100%;
+    @media screen and (max-width:450px){
+        top: -12.5vw;
+    }
 }
 
 #footer-image {
-        width: 100%;
+    width: 100%;
 }

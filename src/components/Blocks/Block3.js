@@ -6,9 +6,9 @@ import PurpleButton from '../Buttons/PurpleButton'
 export default (props) => (
     <>
         <div id="block-3" className="row justify-content-center ml-0 mr-0">
-            <div className="col-7">
+            <div className="col-12 col-sm-12 col-md-7 col-lg-7">
                 <div className="row justify-content-between ml-0 mr-0">
-                    <div className="col-12 col-sm-12 col-sm-6 col-lg-6 ">
+                    <div className="col-12 col-sm-6 col-sm-6 col-lg-6 ">
                         <Card>
                             <h2 class="text-center font-weight-bold">30%</h2>
                             <h5 class="text-center font-weight-bold">Bolsa Mérito</h5>
@@ -23,7 +23,7 @@ export default (props) => (
                             </div>
                         </Card>
                     </div>
-                    <div className="col-12 col-sm-12 col-sm-6 col-lg-6 pt-3 pt-sm-3 pt-md-3 pt-lg-0">
+                    <div className="col-12 col-sm-6 col-sm-6 col-lg-6 pt-3 pt-sm-0 pt-md-3 pt-lg-0">
                         <Card>
                             <h2 class="text-center font-weight-bold">30%</h2>
                             <h5 class="text-center font-weight-bold">Bolsa Social</h5>
