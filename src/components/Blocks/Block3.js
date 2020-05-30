@@ -10,7 +10,7 @@ export default (props) => (
                 <div className="row justify-content-between">
                     <div className="col-12 col-sm-12 col-sm-6 col-lg-6 ">
                         <Card>
-                            <h3 class="text-center font-weight-bold">30%</h3>
+                            <h2 class="text-center font-weight-bold">30%</h2>
                             <h5 class="text-center font-weight-bold">Bolsa Mérito</h5>
                             <p class="text-center"> 
                                 Quer fazer sua transferência para a Melhor Universidade Particular do Brasil? 
@@ -25,7 +25,7 @@ export default (props) => (
                     </div>
                     <div className="col-12 col-sm-12 col-sm-6 col-lg-6">
                         <Card>
-                            <h3 class="text-center font-weight-bold">30%</h3>
+                            <h2 class="text-center font-weight-bold">30%</h2>
                             <h5 class="text-center font-weight-bold">Bolsa Social</h5>
                             <p class="text-center"> 
                                 Cursou todo o ensino médio em escola pública, ou com bolsa integral em escola particular? 
