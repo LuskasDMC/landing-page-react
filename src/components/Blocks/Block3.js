@@ -23,7 +23,7 @@ export default (props) => (
                             </div>
                         </Card>
                     </div>
-                    <div className="col-12 col-sm-6 col-sm-6 col-lg-6">
+                    <div className="col-12 col-sm-6 col-sm-6 col-lg-6 pt-3 pt-sm-0">
                         <Card>
                             <h2 class="text-center font-weight-bold">30%</h2>
                             <h5 class="text-center font-weight-bold">Bolsa Social</h5>
@@ -40,7 +40,7 @@ export default (props) => (
                     </div>
                 </div>
 
-                <div className="row justify-content-center pt-5">
+                <div className="row justify-content-center pt-4">
                     <div className="col-9">
                         <h5 className="text-center font-weight-bold">
                             Não entre para uma universidade, entre para a História. 
