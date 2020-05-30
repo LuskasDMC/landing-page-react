@@ -5,7 +5,7 @@ export default () => {
     return(
         <header className='row justify-content-between align-items-center pt-sm-4 '>
             <div className="d-flex col-12 col-sm-4 justify-content-center">
-                <img src='images/logoUVV.png'  style={{width:'150px',height:"50px"}}/>
+                <img src='images/logoUVV.png'/>
             </div>
             <div className="d-flex col-12 col-sm-4 justify-content-center pt-5 pt-sm-0">
                 <Button  size="small" text="INSCREVA-SE"/>
