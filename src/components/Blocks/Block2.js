@@ -24,6 +24,6 @@ export default (props) => (
                 </div>
             </div>
         </div>
-        <img id='purpleWave-image' src='/images/purpleWave.svg'/>
+        <img id='purpleWave-image' src='images/purpleWave.svg'/>
     </>
 )

@@ -53,9 +53,8 @@ export default (props) => (
                 </div>
 
             </div>
-            <div id="footer-image">
-                <img  src="images/footer.png"/>
-            </div>
+
+            <img  id="footer-image" src="images/footer.png"/>
         </div>
     </>
 )
