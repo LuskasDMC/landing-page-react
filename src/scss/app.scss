@@ -37,3 +37,11 @@ body {
     overflow: hidden;
     box-sizing: border-box;
 }
+
+#section-1 {
+    div {
+        @media screen and (max-width:580px){
+            margin-top: -30px;
+        }
+    }
+}

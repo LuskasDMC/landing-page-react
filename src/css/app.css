@@ -174,3 +174,9 @@ body {
   overflow: hidden;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 580px) {
+  #section-1 div {
+    margin-top: -30px;
+  }
+}
