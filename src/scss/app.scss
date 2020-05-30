@@ -32,7 +32,9 @@ body {
     background: {
         color: #2F1A5A;
     }
-    p{
-        font-size: .7rem;
-    }
+}
+
+#block-3 {
+    overflow: hidden;
+    box-sizing: border-box;
 }

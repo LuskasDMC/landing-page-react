@@ -5,9 +5,9 @@ import PurpleButton from '../Buttons/PurpleButton'
 
 export default (props) => (
     <>
-        <div className="row justify-content-center">
+        <div id="block-3" className="row justify-content-center ml-0 mr-0">
             <div className="col-7">
-                <div className="row justify-content-between">
+                <div className="row justify-content-between ml-0 mr-0">
                     <div className="col-12 col-sm-12 col-sm-6 col-lg-6 ">
                         <Card>
                             <h2 class="text-center font-weight-bold">30%</h2>
@@ -23,7 +23,7 @@ export default (props) => (
                             </div>
                         </Card>
                     </div>
-                    <div className="col-12 col-sm-12 col-sm-6 col-lg-6">
+                    <div className="col-12 col-sm-12 col-sm-6 col-lg-6 pt-3 pt-sm-3 pt-md-3 pt-lg-0">
                         <Card>
                             <h2 class="text-center font-weight-bold">30%</h2>
                             <h5 class="text-center font-weight-bold">Bolsa Social</h5>
@@ -46,14 +46,16 @@ export default (props) => (
                             Não entre para uma universidade, entre para a História. 
                             UVV a Melhor Universidade particular do Brasil!
                             <div className="pt-4">
-                                <PurpleButton text="INCREVA-SE" size="small"/>
+                                <PurpleButton text="INSCREVA-SE" size="small"/>
                             </div>
                         </h5>
                     </div>
                 </div>
 
             </div>
-            <img id="footer-image" src="images/footer.png"/>
+            <div id="footer-image">
+                <img  src="images/footer.png"/>
+            </div>
         </div>
     </>
 )

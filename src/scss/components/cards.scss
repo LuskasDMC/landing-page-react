@@ -3,24 +3,23 @@
     height: 150px;
     background-color: #ffff;
     border-radius: 5px;
-    p:nth-child(1){
+    #card-title {
         color: #9D6BE8;
-        font-size: 1.4rem;
     }
-    p:nth-child(2n){
+    p {
         color: #2F1A5A;
         font-size: 1rem;
     }
     #footer {
+        bottom: 0px;
         height: 10px;
+        left: 0px;
         width: 100%;
         position: absolute;
-        bottom: 15px;
     }
 }
 
 #card-large {
-    height: auto;
     h3 {
         color: #9D6BE8;
     }
@@ -28,7 +27,7 @@
         color: #2F1A5A;
     }
     p {
-        height: 100px;
+        min-height: 100px;
         color: #2F1A5A;
         font-size: .8rem;
     }
